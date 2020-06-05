@@ -6,7 +6,7 @@ function BodyRight() {
     return (
         <div className={darkmode?"bodycssdarkmode":"bodycsslightmode"}>
             <div className="row">
-                <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-12">
+                <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-12 justify-content-center my-auto leftside">
                     <div style={{display:"flex",alignItems:"center",justifyContent:"center"}} className="imgmain"  >
                         <img src={Img} className={darkmode?"img-fluid imgcssdarkmode":"img-fluid imgcsslightmode"} style={{width:"50%",borderRadius:"50%",padding:"5px"}} alt="img"></img>   
                     </div> 
@@ -20,9 +20,9 @@ function BodyRight() {
                    
                     
                 </div>
-                <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-12 content">
+                <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-12 content my-auto">
                     <p  className="grey smallfont my-auto"><i>&#60;html&#62;</i></p>
-                    <p className="grey smallfont"><i>&#60;body&#62;</i></p><br/>
+                    <p className="grey smallfont"><i>&#60;body&#62;</i></p><br />
                     <div className="intro my-auto">
                         <h1 className="bigfont mediumfontweight">Hi,</h1>
                         <h1 className="bigfont mediumfontweight">I'm </h1>

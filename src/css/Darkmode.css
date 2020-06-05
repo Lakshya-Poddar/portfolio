@@ -1,0 +1,79 @@
+/*************** NAVBAR ****************/
+.linkdark{
+    cursor: pointer !important;
+    text-decoration: none !important;
+    color: rgba(0,0,0,0.8) !important;
+    font-size: 2.36vmin;
+}
+.linkdark:hover{
+    color: gray !important;
+}
+
+
+
+/**************************** BODY SECTION CSS ************************************/
+.bodycssdarkmode{
+    min-height: 87vh;    
+    width: 100%;
+    background-color: #343a40;
+    padding: 2vh 2vw;
+    color: white;
+  }
+
+.imgcssdarkmode{
+    border:2px solid white;
+}
+
+.iconscssdarkmode i{
+    margin: 15px;
+    padding: 5px;
+    font-size: 3.7vmin;
+    text-decoration: none;
+    color: white;
+  
+  }
+  .iconscssdarkmode i:hover{
+    color: black;
+    transform: scale(1.2);
+    transition: ease-in .2s;
+    background-color: white;
+    font-weight: 500;
+  }
+
+  /****************************** MOBILE  SCREEN ************************************/
+  @media (max-width:768px)
+  {
+    .bodycssdarkmode{
+    /* min-height: 89%; */
+    min-height: 40vh;
+    width: 100%;
+    background-color: #343a40;
+    padding: 5vh 2vw;
+    color: white;
+  }
+  .content{
+    min-height: 30vh;
+    padding: 10vh 5vw;
+  }
+  }
+
+/************************************** BIG SCREEN *******************************/
+@media (min-width:1024px)
+{
+
+}
+
+/************************************* FOOTER CSS ********************************/
+  .footercssdarkmode{
+    min-height: 5.5vh;
+    width: 100%;
+    padding: 0.1vh 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footercssdarkmode p{
+    font-size: 2.36vmin;
+  }

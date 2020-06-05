@@ -1,6 +1,9 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import './App.css';
+import './css/App.css';
+import './css/Lightmode.css'
+import './css/Darkmode.css'
+import './css/Tempcss.css'
 import NavHeader from './components/NavHeader'
 import Footer from './components/Footer'
 import HomePage from '../src/components/Body'
@@ -23,7 +26,9 @@ function App() {
       <Route exact path='/about' component={About} />
       <Route component={Error} />
     </Switch>
+    <div className="footer">
     <Footer />
+    </div>
     </ContextProvider>
     
     </div>

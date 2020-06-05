@@ -5,7 +5,7 @@ function Footer() {
     const {darkmode}=useContext(Context)
     return (
         <div className={darkmode?"footercssdarkmode":"footercsslightmode"}>
-            <p>Made with <span style={{color:"#a83f39",fontSize:"16px"}}>&hearts;</span> | Lakshya </p>
+            <p>Made with <span style={{color:"#a83f39",fontSize:"2.36vmin"}}>&hearts;</span> | Lakshya </p>
             
         </div>
     )

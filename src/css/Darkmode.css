@@ -3,7 +3,7 @@
     cursor: pointer !important;
     text-decoration: none !important;
     color: rgba(0,0,0,0.8) !important;
-    font-size: 2.36vmin;
+    font-size: 100%;
 }
 .linkdark:hover{
     color: gray !important;
@@ -33,11 +33,12 @@
   
   }
   .iconscssdarkmode i:hover{
-    color: black;
+    color: white;
     transform: scale(1.2);
     transition: ease-in .2s;
-    background-color: white;
+    background-color: black;
     font-weight: 500;
+    border-radius: 2px;
   }
 
   /****************************** MOBILE  SCREEN ************************************/
@@ -48,13 +49,19 @@
     min-height: 40vh;
     width: 100%;
     background-color: #343a40;
-    padding: 5vh 2vw;
+    padding: 0vh 2vw;
     color: white;
+  }
+  .iconscssdarkmode i{
+    font-size: 100% !important;
   }
   .content{
     min-height: 30vh;
-    padding: 10vh 5vw;
+    padding: 4vh 5vw;
   }
+  .footercssdarkmode p{
+    font-size: 80% !important;
+    }
   }
 
 /************************************** BIG SCREEN *******************************/

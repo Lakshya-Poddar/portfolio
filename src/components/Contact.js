@@ -2,7 +2,7 @@ import React from 'react'
 
 function Contact() {
     return (
-        <div style={{height:"86.9vh"}}>
+        <div>
             HELLO FROM CONTACT PAGE
         </div>
     )

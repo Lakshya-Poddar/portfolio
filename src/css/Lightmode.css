@@ -27,7 +27,8 @@
     font-size: 3.7vmin;
     text-decoration: none;
     color: black;
-  
+    border-radius: 50%;
+
   }
   .iconscsslightmode i:hover{
     color: white;
@@ -35,6 +36,7 @@
     transition: ease-in .2s;
     background-color: black;
     font-weight: 500;
+    border-radius: 50%;
   }
 
 /****************************** MOBILE  SCREEN ************************************/

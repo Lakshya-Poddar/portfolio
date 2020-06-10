@@ -62,7 +62,13 @@ p,h1{
   .modetoggler{
     font-size: 100%;
   }
-      
+     
+  
+  .card-hover:hover{
+    transform: scale(1.05);
+    transition: linear .2s;
+    
+  }
 /**************************** BODY SECTION CSS ************************************/
 
 .intro{

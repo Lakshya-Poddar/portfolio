@@ -5,7 +5,7 @@ function BodyRight() {
     const {darkmode} =useContext(Context)
     return (
         <div className={darkmode?"bodycssdarkmode":"bodycsslightmode"}>
-            <div className="row">
+            <div className="row ">
                 <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-12 justify-content-center my-auto leftside">
                     <div style={{display:"flex",alignItems:"center",justifyContent:"center"}} className="imgmain"  >
                         <img src={Img} className={darkmode?"img-fluid imgcssdarkmode":"img-fluid imgcsslightmode"} style={{width:"50%",borderRadius:"50%",padding:"5px"}} alt="img"></img>   

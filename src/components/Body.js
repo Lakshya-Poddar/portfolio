@@ -26,9 +26,9 @@ function BodyRight() {
                     <div className="intro my-auto">
                         <h1 className="bigfont mediumfontweight">Hi,</h1>
                         <h1 className="bigfont mediumfontweight">I'm </h1>
-                        <h1 className="verybigfont" style={{fontWeight:"500"}}>Lakshya,</h1>
-                        <h5 className="grey mediumfont"><b>MERN STACK</b></h5>
-                        <h1 className="bigfont lessfontweight">WEB-DEVELOPER</h1>
+                        <h1 className="verybigfont" style={{fontWeight:"500"}}>Lakshya Poddar,</h1>
+                        <h5 className="grey mediumfont"><b>A MERN STACK</b></h5>
+                        <h1 className="bigfont lessfontweight" >WEB-DEVELOPER</h1>
                     </div><br/>
                     <p className="grey smallfont"><i>&#60;/html&#62;</i></p>
                     <p className="grey smallfont"><i>&#60;/body&#62;</i></p>

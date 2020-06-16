@@ -20,6 +20,7 @@ p,h1{
   }
   .mediumfont{
     font-size: 3vmin;
+    margin-bottom: 0;
   }
   .verybigfont{
     font-size: 11.01vmin;
@@ -64,11 +65,7 @@ p,h1{
   }
      
   
-  .card-hover:hover{
-    transform: scale(1.05);
-    transition: linear .2s;
-    
-  }
+
 /**************************** BODY SECTION CSS ************************************/
 
 .intro{
@@ -115,10 +112,12 @@ p,h1{
         font-size: 250%;
       }
       .mediumfont{
-        font-size: 150%;
+        font-size: 120%;
+        margin-bottom: 0;
       }
       .bigfont{
         font-size: 200%;
+        
       }
       .imgmain{
         padding: 3vh 0 .5vh 0;
@@ -143,4 +142,15 @@ p,h1{
   left: 0;
   width: 100%;
   min-height: 5.5vh;
+}
+
+
+
+
+
+/* ********************************PROJECTS PAGE******************************************* */
+.card-hover:hover{
+  transform: scale(1.05);
+  transition: linear .2s;
+  border: 0;
 }

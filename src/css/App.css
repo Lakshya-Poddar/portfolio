@@ -87,7 +87,7 @@ p,h1{
 
   .linkedincss:hover{
     background: #0e76a8 !important;
-    border-radius: 2px;
+    border-radius: 50%;
   }
   .instagramcss:hover{
     background: #f09433; 
@@ -101,6 +101,10 @@ p,h1{
       background: #00acee !important;
       border-radius: 2px; 
     }
+  .emailcss:hover{
+    background: #d44638!important;
+      border-radius: 50%; 
+  }
 
 /****************************** MOBILE  SCREEN ************************************/
   @media (max-width:768px)

@@ -143,6 +143,9 @@ p,h1{
   min-height: 5.5vh;
 }
 
+.activeclass{
+  color: #00acee;
+}
 
 
 

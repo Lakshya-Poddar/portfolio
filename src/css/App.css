@@ -85,19 +85,19 @@ p,h1{
   }
 
 
-  .linkedincss:hover{
+  .linkedincss:hover,.linkedinabout{
     background: #0e76a8 !important;
   }
-  .instagramcss:hover{
+  .instagramcss:hover,.instagramabout{
     background: #f09433; 
     background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
     background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
     background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
     }
-    .twittercss:hover{
+    .twittercss:hover,.twitterabout{
       background: #00acee !important;
     }
-  .emailcss:hover{
+  .emailcss:hover,.emailabout{
     background: #d44638!important;
   }
 
@@ -155,4 +155,11 @@ p,h1{
   transform: scale(1.05);
   transition: linear .2s;
   border: 0;
+}
+
+
+/* About page */
+
+.githubabout{
+  background-color: black;
 }

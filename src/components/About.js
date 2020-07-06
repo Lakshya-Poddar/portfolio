@@ -19,13 +19,13 @@ function About() {
         <>
             <div className={darkmode?"bg-dark about p-5 text-light":"about p-5"}>
                 <div className="container-fluid">
-                            <p className="text-center mx-auto" style={{lineHeight:"2rem",fontSize:"20px"}}><b>Hi there!</b><br /></p>
+                            <p className="text-center mx-auto mb-3" style={{fontSize:"30px"}}><b>Hi there!</b><br /></p>
                             <div className={darkmode?"iconscss iconscssdarkmode":"iconscss iconscsslightmode"}>
-                                    <a href="https://github.com/Lakshya-Poddar" target="_blank" rel="noopener noreferrer"><i className="fa fa-github githubcss "></i></a>
-                                    <a href="https://www.linkedin.com/in/lakshya-poddar/" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin linkedincss "></i></a>
-                                    <a href="https://www.instagram.com/lakshyapoddar/" target="_blank" rel="noopener noreferrer"><i className="fa fa-instagram instagramcss"></i></a>
-                                    <a href="https://twitter.com/lakshya_poddar" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter twittercss"></i></a>
-                                    <a href="mailto:lakshyapoddar1604@gmail.com" target="_blank" rel="noopener noreferrer"><i className="fa fa-envelope emailcss"></i></a>
+                                    <a href="https://github.com/Lakshya-Poddar" target="_blank" rel="noopener noreferrer"><i className="fa fa-github githubcss githubabout text-light"></i></a>
+                                    <a href="https://www.linkedin.com/in/lakshya-poddar/" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin linkedincss linkedinabout text-light"></i></a>
+                                    <a href="https://www.instagram.com/lakshyapoddar/" target="_blank" rel="noopener noreferrer"><i className="fa fa-instagram instagramcss instagramabout text-light"></i></a>
+                                    <a href="https://twitter.com/lakshya_poddar" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter twittercss twitterabout text-light"></i></a>
+                                    <a href="mailto:lakshyapoddar1604@gmail.com" target="_blank" rel="noopener noreferrer"><i className="fa fa-envelope emailcss emailabout text-light"></i></a>
 
                             </div>
                             <div className="row">
@@ -41,26 +41,26 @@ function About() {
                                 </div>
                             </div>
                 
-                <h3 className="text-center mt-5"><b><u>FRONT-END</u></b></h3><br />
-                <div className="row ">
+                <h3 className="text-center mt-5 display-5"><u>FRONT-END</u></h3><br />
+                <div className="row bg-light p-2">
                     <div className="col-6 col-md-2 mx-auto">
-                        <img src={html} className="img-fluid " style={{maxHeight:"120px"}}  alt="skills" />
+                        <img src={html} className="img-fluid " style={{maxHeight:"150px"}}  alt="skills" />
                     </div>
                     <div className="col-6 col-md-2 mx-auto">
-                        <img src={css} className="img-fluid mx-auto"  style={{maxHeight:"120px"}}  alt="skills"/>
+                        <img src={css} className="img-fluid"  style={{maxHeight:"150px"}}  alt="skills"/>
                     </div>
                     <div className="col-6 col-md-2 mx-auto">
-                        <img src={javascript} className="img-fluid  " style={{maxHeight:"120px"}}  alt="skills"/>
+                        <img src={javascript} className="img-fluid  " style={{maxHeight:"150px"}}  alt="skills"/>
                     </div>
                     <div className="col-6 col-md-2 mx-auto">
-                        <img src={bootstrap} className="img-fluid " style={{maxHeight:"120px"}}  alt="skills" />
+                        <img src={bootstrap} className="img-fluid " style={{maxHeight:"150px"}}  alt="skills" />
                     </div>
                     <div className="col-6 col-md-2 mx-auto">
-                        <img src={react} className="img-fluid " style={{maxHeight:"120px"}}  alt="skills" />
+                        <img src={react} className="img-fluid " style={{maxHeight:"150px"}}  alt="skills" />
                     </div>
                 </div>
-                <h3 className="text-center mt-5"><b><u>BACK-END</u></b></h3><br />
-                <div className="row ">
+                <h3 className="text-center mt-5 display-5"><u>BACK-END</u></h3><br />
+                <div className="row bg-light p-2">
                     <div className="col-6 col-md-2 mx-auto">
                         <img src={node} className="img-fluid pt-4" style={{maxHeight:"150px"}} alt="skills" />
                     </div>

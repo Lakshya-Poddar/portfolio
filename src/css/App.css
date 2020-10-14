@@ -1,141 +1,160 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    overflow-x: hidden;
-    text-overflow: ellipsis;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
 }
-html,body{
-    height: 100%;
+html,
+body {
+  height: 100%;
 }
-p,h1{
-    padding: 0;
-    margin: 0;
+p,
+h1 {
+  padding: 0;
+  margin: 0;
 }
-  .grey{
-    color: grey;
+.grey {
+  color: grey;
 }
-.smallfont{
-    font-size: 2.25vmin;
-  }
-  .mediumfont{
-    font-size: 3vmin;
-    margin-bottom: 0;
-  }
-  .verybigfont{
-    font-size: 11.01vmin;
-  }
-  .bigfont{
-    font-size: 9vmin;
-  }
-  .lessfontweight{
-    font-weight: 100;
-  }
-  .mediumfontweight{
-    font-weight: 300;
-  }
-
+.smallfont {
+  font-size: 2.25vmin;
+}
+.mediumfont {
+  font-size: 3vmin;
+  margin-bottom: 0;
+}
+.verybigfont {
+  font-size: 11.01vmin;
+}
+.bigfont {
+  font-size: 9vmin;
+}
+.lessfontweight {
+  font-weight: 100;
+}
+.mediumfontweight {
+  font-weight: 300;
+}
 
 /************************ MAIN BLANK PAGE *****************************************/
-  
-.home{
-        /* width: 100vw; */
-        min-height: 100vh;
-        font-family: 'Lato', sans-serif;
-        position: relative;
-        box-sizing: border-box;
-        padding: 0 0 5.5vh;
-        margin: 0;
+
+.home {
+  /* width: 100vw; */
+  min-height: 100vh;
+  font-family: "Lato", sans-serif;
+  position: relative;
+  box-sizing: border-box;
+  padding: 0 0 5.5vh;
+  margin: 0;
 }
 
- /******************************* NAVBAR CSS **************************************/
-  .navbarcss
-  {
-    min-height: 7vh;
-    width: auto; 
-  }
-  .navbar{
-    padding: .2vh 2vw;
-  }
-  .navbar-toggler{
-    padding: 2px 6px;
-  }
-  .modetoggler{
-    font-size: 100%;
-  }
-     
-  
+/******************************* NAVBAR CSS **************************************/
+.navbarcss {
+  min-height: 7vh;
+  width: auto;
+}
+.navbar {
+  padding: 0.2vh 2vw;
+}
+.navbar-toggler {
+  padding: 2px 6px;
+}
+.modetoggler {
+  font-size: 100%;
+}
 
 /**************************** BODY SECTION CSS ************************************/
 
-.intro{
-    padding: 0;
-    margin: 0;
-  }
-.imgmain{
-    padding: 10vh 0 2vh 0;
+.intro {
+  padding: 0;
+  margin: 0;
+}
+.imgmain {
+  padding: 10vh 0 2vh 0;
 }
 
-.iconscss{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    font-size: 150%;
-  }
+.iconscss {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 150%;
+}
 
-
-  .linkedincss:hover,.linkedinabout{
-    background: #0e76a8 !important;
-  }
-  .instagramcss:hover,.instagramabout{
-    background: #f09433; 
-    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
-    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-    }
-    .twittercss:hover,.twitterabout{
-      background: #00acee !important;
-    }
-  .emailcss:hover,.emailabout{
-    background: #d44638!important;
-  }
+.linkedincss:hover,
+.linkedinabout {
+  background: #0e76a8 !important;
+}
+.instagramcss:hover,
+.instagramabout {
+  background: #f09433;
+  background: -moz-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+}
+.twittercss:hover,
+.twitterabout {
+  background: #00acee !important;
+}
+.emailcss:hover,
+.emailabout {
+  background: #d44638 !important;
+}
 
 /****************************** MOBILE  SCREEN ************************************/
-  @media (max-width:768px)
-  {
-    .smallfont{
-        font-size: 100%;
-      }
-      .verybigfont{
-        font-size: 250%;
-      }
-      .mediumfont{
-        font-size: 120%;
-        margin-bottom: 0;
-      }
-      .bigfont{
-        font-size: 200%;
-        
-      }
-      .imgmain{
-        padding: 3vh 0 .5vh 0;
-      }
-      .footercss p{
-        font-size: 100%;
-      }
-      .navbar{
-        padding: .7vh 3vw;
-      }
-      .navbar-toggler{
-        padding: 1px 3px;
-      } 
+@media (max-width: 768px) {
+  .smallfont {
+    font-size: 100%;
   }
-
+  .verybigfont {
+    font-size: 250%;
+  }
+  .mediumfont {
+    font-size: 120%;
+    margin-bottom: 0;
+  }
+  .bigfont {
+    font-size: 200%;
+  }
+  .imgmain {
+    padding: 3vh 0 0.5vh 0;
+  }
+  .footercss p {
+    font-size: 100%;
+  }
+  .navbar {
+    padding: 0.7vh 3vw;
+  }
+  .navbar-toggler {
+    padding: 1px 3px;
+  }
+}
 
 /************************************* FOOTER CSS ********************************/
 
-.footer{
+.footer {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -143,23 +162,19 @@ p,h1{
   min-height: 5.5vh;
 }
 
-.activeclass{
+.activeclass {
   color: #00acee;
 }
 
-
-
-
 /* ********************************PROJECTS PAGE******************************************* */
-.card-hover:hover{
+.card-hover:hover {
   transform: scale(1.05);
-  transition: linear .2s;
+  transition: linear 0.3s;
   border: 0;
 }
 
-
 /* About page */
 
-.githubabout{
+.githubabout {
   background-color: black;
 }

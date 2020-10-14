@@ -7,7 +7,7 @@ export class ContextProvider extends Component {
         super(props)
     
         this.state = {
-             darkmode:false
+             darkmode:true
         }
     }
     modechange=()=>{

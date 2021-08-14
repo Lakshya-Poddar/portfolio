@@ -3,17 +3,17 @@ import { Card } from "react-bootstrap";
 import { Context } from "../Context";
 import Ehousie from "../images/ehousie.png";
 import DownNine from "../images/downnine.png";
-import MobileStore from "../images/mobilestore.png";
 import SlashIt from "../images/slashit.png";
 import FaceMeet from "../images/facemeet.png";
+import NavHeader from "./NavHeader";
 
 function Projects() {
   const { darkmode } = useContext(Context);
 
   return (
-    <>
-      <div className={darkmode ? "projectsdarkmode" : ""}>
-        <div className="row container mx-auto pb-4">
+    <div className={darkmode ? "custom-container-dark" : "custom-container-light"}>
+      <NavHeader />
+        <div className="row mx-auto py-1">
           <Card
             className={
               darkmode
@@ -26,10 +26,11 @@ function Projects() {
               href="https://slashit.herokuapp.com"
               style={{ textDecoration: "none", color: "white" }}
               target="_blank"
+              rel="noopener noreferrer"
             >
               <Card.Img
                 src={SlashIt}
-                style={{ filter: "brightness(30%)" }}
+                style={{ filter: "brightness(45%)" }}
                 className=""
                 alt="Card image"
               />
@@ -62,10 +63,11 @@ function Projects() {
               href="https://facemeet.herokuapp.com"
               style={{ textDecoration: "none", color: "white" }}
               target="_blank"
+              rel="noopener noreferrer"
             >
               <Card.Img
                 src={FaceMeet}
-                style={{ filter: "brightness(20%)", backgroundColor: "black" }}
+                style={{ filter: "brightness(45%)", backgroundColor: "black" }}
                 className=""
                 alt="Card image"
               />
@@ -98,10 +100,11 @@ function Projects() {
               href="https://ehousie.web.app"
               style={{ textDecoration: "none", color: "white" }}
               target="_blank"
+              rel="noopener noreferrer"
             >
               <Card.Img
                 src={Ehousie}
-                style={{ filter: "brightness(20%)" }}
+                style={{ filter: "brightness(45%)" }}
                 className=""
                 alt="Card image"
               />
@@ -134,10 +137,11 @@ function Projects() {
               href="https://downnine.netlify.app"
               style={{ textDecoration: "none", color: "white" }}
               target="_blank"
+              rel="noopener noreferrer"
             >
               <Card.Img
                 src={DownNine}
-                style={{ filter: "brightness(20%)" }}
+                style={{ filter: "brightness(45%)" }}
                 className=""
                 alt="Card image"
               />
@@ -160,7 +164,6 @@ function Projects() {
           </Card>
         </div>
       </div>
-    </>
   );
 }
 

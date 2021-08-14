@@ -1,78 +1,40 @@
 /*************** NAVBAR ****************/
-.linklight{
-    cursor: pointer !important;
-    text-decoration: none !important;
-    color: white !important;
-    font-size: 100%;
-  }
-  .linklight:hover{
-    color: lightgrey !important;
-  }
-
-/**************************** BODY SECTION CSS ************************************/
-.bodycsslightmode{
-    min-height: 87vh;    
-    width: 100%;
-    background-color: white;
-    padding: 2vh 2vw;
-    color: black;
-  }
-  .imgcsslightmode{
-    border:2px solid black;
-  }
-
-.iconscsslightmode i{
-    margin: 15px;
-    padding: 5px;
-    font-size: 3.7vmin;
-    text-decoration: none;
-    color: black;
-    border-radius: 2px;
-
-  }
-  .iconscsslightmode i:hover{
-    color: white;
-    transform: scale(1.2);
-    transition: ease-in .2s;
-    background-color: black;
-    font-weight: 500;
-    border-radius: 2px;
-  }
-
-/****************************** MOBILE  SCREEN ************************************/
-@media (max-width:768px)
-{
-    .bodycsslightmode{
-        /* min-height: 89%; */
-        width: 100%;
-        background-color: white;
-        padding: 0vh 2vw;
-        color: black;
-      
-      }
-      .iconscsslightmode i{
-        font-size: 100% !important;
-      }
-      .footercsslightmode p{
-      font-size: 80% !important;
-      }
-
-
+.linklight {
+  cursor: pointer !important;
+  text-decoration: none !important;
+  color: white !important;
+  font-size: 100%;
+  font-weight: 600;
+}
+.linklight:hover {
+  color: lightgrey !important;
 }
 
-/************************************* FOOTER CSS ********************************/
-.footercsslightmode{
-    min-height: 5.5vh;
-    width: auto;
-    padding: 0.1vh 2vw;
-    text-align: center;
-    background-color:#343a40;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+/**************************** BODY SECTION CSS ************************************/
+
+.imgcsslightmode {
+  border: 2px solid black;
+}
+.iconscsslightmode i {
+  margin: 15px;
+  padding: 5px;
+  font-size: 3.7vmin;
+  text-decoration: none;
+  color: black;
+  border-radius: 2px;
+}
+.iconscsslightmode i:hover {
+  color: white;
+  transform: scale(1.2);
+  transition: ease-in 0.2s;
+  background-color: black;
+  font-weight: 500;
+  border-radius: 2px;
+}
+
+/****************************** MOBILE  SCREEN ************************************/
+@media (max-width: 768px) {
+  .iconscsslightmode i {
+    font-size: 100% !important;
   }
-  .footercsslightmode p{
-    font-size: 2.36vmin;
-    color: white;
-  }
-  
+}

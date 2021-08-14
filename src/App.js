@@ -1,37 +1,23 @@
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css'
-import './css/App.css';
-import './css/Lightmode.css'
-import './css/Darkmode.css'
-import './css/Tempcss.css'
-import NavHeader from './components/NavHeader'
-import Footer from './components/Footer'
-import HomePage from '../src/components/Body'
-import Projects from './components/Projects'
-import About from './components/About'
-import Error from './components/Error'
-import Contact from './components/Contact'
-import ContextProvider from './Context'
-import {Switch,Route} from 'react-router-dom'
+import React from "react";
+import { Switch, Route } from "react-router-dom";
+import ContextProvider from "./Context";
+import HomePage from "../src/components/HomePage";
+import Projects from "./components/Projects";
+import About from "./components/About";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./css/App.css";
+import "./css/Lightmode.css";
+import "./css/Darkmode.css";
+
 function App() {
   return (
-    <div className="home">
-
-    <ContextProvider>
-    <NavHeader />
-    <Switch>        
-      <Route exact path='/' component={HomePage} />
-      <Route exact path='/projects' component={Projects} />
-      <Route exact path='/contact' component={Contact} />
-      <Route exact path='/about' component={About} />
-      <Route component={Error} />
-    </Switch>
-    <div className="footer">
-    <Footer />
-    </div>
-    </ContextProvider>
-    
-    </div>
+      <ContextProvider>
+        <Switch>
+          <Route exact path="/" component={HomePage} />
+          <Route exact path="/projects" component={Projects} />
+          <Route exact path="/about" component={About} />
+        </Switch>
+      </ContextProvider>
   );
 }
 

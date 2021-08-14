@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 function NavHeader() {
   const { darkmode, modechange } = useContext(Context);
   return (
-    <div className="navbarcss">
       <Navbar
         collapseOnSelect
         expand="lg"
@@ -15,7 +14,7 @@ function NavHeader() {
         <Navbar.Brand>
           <i
             className={
-              darkmode ? "fa fa-sun-o modetoggler" : "fa fa-moon-o modetoggler"
+              darkmode ? "fa fa-sun-o" : "fa fa-moon-o" // Add css to make the icon revolve on hover
             }
             onClick={() => modechange()}
           ></i>
@@ -41,9 +40,8 @@ function NavHeader() {
                 PROJECTS
               </Link>
             </Nav.Link>
-            {/* <Nav.Link href="#"><Link to='/contact' className={darkmode?"linkdark":"linklight"}>CONTACT</Link></Nav.Link> */}
             <Nav.Link
-              href="https://drive.google.com/u/0/uc?id=1riLZxU3V88_8AfO8Dwl7GmqB1EQvEekh&export=download"
+              href="https://drive.google.com/u/0/uc?id=1SlaClNiamCDUB0RXQ1jaMcQhbjD_rw5x&export=download"
               className={darkmode ? "linkdark" : "linklight"}
             >
               RESUME
@@ -51,7 +49,6 @@ function NavHeader() {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-    </div>
   );
 }
 

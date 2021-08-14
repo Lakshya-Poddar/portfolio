@@ -1,3 +1,4 @@
+/* Common Styles */
 * {
   padding: 0;
   margin: 0;
@@ -22,13 +23,12 @@ h1 {
 }
 .mediumfont {
   font-size: 3vmin;
-  margin-bottom: 0;
-}
-.verybigfont {
-  font-size: 11.01vmin;
 }
 .bigfont {
   font-size: 9vmin;
+}
+.verybigfont {
+  font-size: 11.01vmin;
 }
 .lessfontweight {
   font-weight: 100;
@@ -38,30 +38,29 @@ h1 {
 }
 
 /************************ MAIN BLANK PAGE *****************************************/
-
-.home {
-  /* width: 100vw; */
+.custom-container-light {
   min-height: 100vh;
+  width: 100%;
+  background-color: white;
+  /* padding: 2vh 2vw; */
+  color: black;
   font-family: "Lato", sans-serif;
-  position: relative;
-  box-sizing: border-box;
-  padding: 0 0 5.5vh;
-  margin: 0;
+}
+.custom-container-dark {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #343a40;
+  /* padding: 2vh 2vw; */
+  color: white;
+  font-family: "Lato", sans-serif;
 }
 
 /******************************* NAVBAR CSS **************************************/
-.navbarcss {
-  min-height: 7vh;
-  width: auto;
-}
 .navbar {
-  padding: 0.2vh 2vw;
+  padding: 1vh 2vw;
 }
 .navbar-toggler {
   padding: 2px 6px;
-}
-.modetoggler {
-  font-size: 100%;
 }
 
 /**************************** BODY SECTION CSS ************************************/
@@ -141,29 +140,12 @@ h1 {
   .imgmain {
     padding: 3vh 0 0.5vh 0;
   }
-  .footercss p {
-    font-size: 100%;
-  }
   .navbar {
     padding: 0.7vh 3vw;
   }
   .navbar-toggler {
     padding: 1px 3px;
   }
-}
-
-/************************************* FOOTER CSS ********************************/
-
-.footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  min-height: 5.5vh;
-}
-
-.activeclass {
-  color: #00acee;
 }
 
 /* ********************************PROJECTS PAGE******************************************* */
@@ -174,7 +156,6 @@ h1 {
 }
 
 /* About page */
-
 .githubabout {
   background-color: black;
 }
